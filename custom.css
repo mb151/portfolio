@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.carousel-item {
+    height: 625px;
+}
+
+.carousel-item img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 300px;
+    z-index: -1;
+}
+
+.info {
+    color: rgb(255, 255, 255);
+    margin-top: 10000px;
+    font-size: 1000px;
+}
+
+.carous {
+    background-color: rgba(53, 50, 50, 0.85);
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 50px;
+    text-align: center;
+    text-decoration: aliceblue;
+    border-radius: 50%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#info img {
+    margin-top: -50px;
+}
+
+#info .card {
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #e74c3c;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+#info .card:hover {
+    background: #f3bdb7;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+}
+
+#info .card:hover li,
+#info .card:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+
+.map-container-6 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-6 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#projet .fa {
+    color: black;
+}
+
+#projet .fa-github {
+    width: 150px;
+}
+
+.mylist {
+    width: 200px;
+    padding: 0px;
+    margin: 100px auto;
+    border-top: 0px;
+    border: 1px solid #bbb;
+    border-radius: 7px 7px 0px 0px;
+    background-color: #eee;
+    height: 20em;
+}
+
+.mylist li {
+    list-style: none;
+    background: #eee;
+    border-top: 1px solid #ccc;
+    padding: 1px 25px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.mylist li:first-child {
+    background: #36c;
+    color: white;
+    border: none;
+    height: 20px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#scroll_to_top {
+    position: fixed;
+    border-radius: 4px;
+    width: 25px;
+    height: 25px;
+    bottom: 50px;
+    right: 30px;
+    opacity: 0.5;
+}
+
+#scroll_to_top img {
+    width: 25px;
+}
+#carouselSlide a{
+    font-size: 45px;
+    margin: auto;
+    margin-top: 1em;
+}
+#carouselSlide .carous{
+    height: auto;
+}
+
